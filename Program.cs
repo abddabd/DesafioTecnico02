@@ -23,8 +23,9 @@ class Program
                     break;
 
                 case 2:
-                    Console.WriteLine("Você trabalhou por 28 horas no mercadinho, ganhando R$400\r\n");
+                    Console.WriteLine("Você trabalhou por 28 horas no mercadinho, ganhando R$400 \r\nDevido ao seu foco no trabalho, sua nota caiu um pouco");
                     seuDinheiro += 100;
+                    nota -= 1;
                     break;
 
                 case 3:
